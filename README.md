@@ -3,5 +3,5 @@
 <h3>by Ranggi Rahman</h3>
 <h3>Universitas Pendidikan Indonesia http://cs.upi.edu</h3>
 <hr>
-<b>/kotabdg</b> mapserver file
-<b>/petabdg web</b> file
+<p><b>/kotabdg</b> mapserver file</p>
+<p><b>/petabdg web</b> file</p>
