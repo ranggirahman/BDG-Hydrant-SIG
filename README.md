@@ -4,4 +4,4 @@
 <h3>Universitas Pendidikan Indonesia http://cs.upi.edu</h3>
 <hr>
 <p><b>/kotabdg</b> mapserver file</p>
-<p><b>/petabdg web</b> file</p>
+<p><b>/petabdg</b> web file</p>
