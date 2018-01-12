@@ -1,0 +1,2 @@
+point	title	description	icon
+-6.88,107.61	Aku Disini	Rada-rada kepo	http://localhost/sigcontoh/img/marker-blue.png

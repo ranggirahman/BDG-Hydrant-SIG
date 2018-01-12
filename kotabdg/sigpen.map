@@ -1,0 +1,71 @@
+# 
+# Komentar untuk mapfile ybs.
+# 
+MAP              	
+  NAME KOTABDG
+  IMAGETYPE "PNG24"
+  EXTENT 107.545900814 -6.96973538399993 107.739340474 -6.83688472599998
+  STATUS ON       	
+  UNITS DD
+  SIZE 600 450
+  SHAPEPATH "C:/ms4w/apps/kotabdg/"
+  IMAGECOLOR 255 255 255
+  IMAGEQUALITY 95
+  IMAGETYPE png
+
+  OUTPUTFORMAT
+	NAME png
+	DRIVER 'GD/PNG'
+	MIMETYPE 'image/png'
+	IMAGEMODE RGBA
+	EXTENSION 'png'
+  END
+  
+  SYMBOL
+    NAME 'CIRCLE'
+    TYPE ellipse
+    FILLED true
+    POINTS	
+		5 5
+    END
+  END
+		
+  LAYER
+    NAME         KECAMATAN_BATAS
+    DATA         KECAMATAN_BATAS
+    STATUS       ON
+    TYPE         POLYGON
+	LABELITEM    "FIRST_KECA"  
+
+    CLASS
+      STYLE
+        COLOR        0 255 0
+        OUTLINECOLOR 255 255 255		
+      END
+	  LABEL
+        COLOR 0 0 0
+		#FONT arial-bold
+        ANTIALIAS TRUE
+        PARTIALS FALSE
+        BUFFER 4
+		REPEATDISTANCE 10000
+      END
+    END
+  END
+
+  LAYER
+    NAME         Jalan_Kota_Bandung
+    DATA         Jalan_Kota_Bandung
+    STATUS       ON
+    TYPE         line
+	#TRANSPARENCY alpha
+    CLASS
+      STYLE
+        COLOR        0 0 0
+        OUTLINECOLOR 255 0 255
+      END
+    END
+  END 
+  
+  
+END # Akhir mapfile
